@@ -1,0 +1,28 @@
+name = "proofs-library"
+version = "0.1.0"
+defaultTargets = ["proofs-library"]
+
+[[lean_lib]]
+name = "ProofsLibrary"
+
+[[lean_exe]]
+name = "proofs-library"
+root = "Main"
+
+[[require]]
+name = "CardanoLedgerApi"
+path = "../CardanoLedgerApiBlaster"
+
+# [[require]]
+# name = "CardanoLedgerApi"
+# git = "https://github.com/input-output-hk/CardanoLedgerApiBlaster"
+# 
+# [[require]]
+# name = "PlutusCore"
+# git = "https://github.com/input-output-hk/PlutusCoreBlaster"
+# rev = "main"
+# 
+# [[require]]
+# name = "Blaster"
+# git = "https://github.com/input-output-hk/Lean-blaster"
+# rev = "beta-lambda-cache-optimization"

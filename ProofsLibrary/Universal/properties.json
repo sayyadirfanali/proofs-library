@@ -1,0 +1,15 @@
+[
+  {
+    "id": "PROP-001",
+    "title": "",
+    "category": "universal",
+    "status": "agreed",
+    "summary": "basic sanity checks on evaluator",
+    "spec_ref": "SPEC-2026-01",
+    "theorems": [
+      "success_not_error",
+      "zero_fuel_always_fails"
+    ],
+    "open_targets": []
+  }
+]
