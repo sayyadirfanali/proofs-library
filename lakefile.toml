@@ -11,12 +11,8 @@ root = "Main"
 
 [[require]]
 name = "CardanoLedgerApi"
-path = "../CardanoLedgerApiBlaster"
+git = "https://github.com/input-output-hk/CardanoLedgerApiBlaster"
 
-# [[require]]
-# name = "CardanoLedgerApi"
-# git = "https://github.com/input-output-hk/CardanoLedgerApiBlaster"
-# 
 # [[require]]
 # name = "PlutusCore"
 # git = "https://github.com/input-output-hk/PlutusCoreBlaster"
